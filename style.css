@@ -16,6 +16,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     /* White two / #F6F6F6 / 246, 246, 246 */
     /* Black / #333333 / 51, 51, 51 */
 
+    html {
+        font-size:125%;
+    }
+
     .wrapper {
         max-width: 1280px;
         margin: 0 auto;
@@ -28,6 +32,24 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
         object-fit: contain;
     } */
 
+    h1 {
+        font-size:1.85rem;
+        flex:2 0 50%;
+        text-align: center;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+    }
+
+    h3 {
+        font-size:0.9rem;
+        font-family:'Montserrat', sans-serif;
+        letter-spacing: 1.8px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+
     header {
         background-image: url(./creative-assets/home-1.jpeg);
         height: 100vh;
@@ -35,14 +57,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
         background-size: cover;
     }
 
-    header nav ul{
+    header nav {
         display: flex;
-        justify-content: space-between;        
+        justify-content: space-between;
+        padding-top: 30px;      
     }
     header nav li {
-        /* margin:0 30px; */
         text-transform: uppercase;
+        font-family:'Montserrat', sans-serif;
+        font-size: 0.7rem;
+        letter-spacing: 0.3px;
     }
+
+    header nav ul {
+        display: flex;
+        align-items: center;
+        width:25%;
+        justify-content: space-around;
+    }
+
 
     header nav a {
         text-decoration: none;
@@ -52,29 +85,90 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     .brand-develop {
         background-color:#C3DAB7 ;
         padding:250px 0 150px 0;
+        /* position: relative; */
     }
 
     .brand-img-container {
         display: flex;
         justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .brand-img-1 {
+        /* margin:0 auto; */
         position: relative;
     }
 
-    .brand-png {
+    .brand-img-2 {
         position: absolute;
+        top: -121px; 
+        left: -120px;
+
     }
 
-    .brand-text{
+    .brand-text-1,
+    .brand-text-2{
         text-align: center;
-        flex:1 1 300px;
+        flex:1 0 100px;
         margin-top:100px;
+        font-family:'Open Sans', sans-serif;
+        line-height: 24px;
+        font-size:0.7rem;
     }
 
-    .brand-text span {
+    .brand-text-1 span,
+    .brand-text-2 span {
         display: block;
     }
+
 
     .brand-container {
         display: flex;
         justify-content: space-between;
     }
+
+    .carousel {
+        margin:140px 0;
+    }
+
+
+    .carousel-top {
+        display:flex;
+        justify-content:space-between;
+
+    }
+
+    .carousel-img img{
+        border-radius: 50%;
+    }
+
+    .carousel-top .fas {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .carousel-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+    .carousel-text p { 
+        width:60%;
+        text-align: center;
+        font-style: italic;
+        margin:40px 0;
+        
+    }
+
+
+
+    .services {
+        background-image: url(./creative-assets/home-4.jpeg)
+    }
+
+
+

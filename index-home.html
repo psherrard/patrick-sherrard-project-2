@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/fd9c679d1d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
@@ -12,12 +12,14 @@
 <body>
     <header>
         <div class="wrapper">
-            <h1>Creative</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#portfolio">portfolio</a></li>
+                </ul>   
+                <h1>Creative</h1>
+                <ul>
                     <li><a href="#shop">shop</a></li>
                     <li><a href="#contact">contact</a></li>
                     <li><i class="fas fa-search"></i></li>
@@ -30,32 +32,40 @@
         <section id="brand-develop" class="brand-develop">
             <div class="wrapper">
                 <div class="brand-img-container"> 
-                    <img src="./creative-assets/home-2.jpeg" alt="">
-                </div>
-                <div class="brand-png">
-                    <img src="./creative-assets/home-circle-text.png" alt="">
+                    <div class="brand-img-1">
+                        <img src="./creative-assets/home-2.jpeg" alt="">
+                        <div class="brand-img-2">
+                            <img src="./creative-assets/home-circle-text.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="brand-container">
-                    <div class="brand-text">
-                        <h2>Branding</h2>
+                    <div class="brand-text-1">
+                        <h3>Branding</h3>
                         <p><span>Venture first mover advantage incubators metrics</span> focus backing business-to-consumer</p>
                     </div>
-                    <div class="brand-text">
-                        <h2>Design & Develop</h2>
+                    <div class="brand-text-2">
+                        <h3>Design & Develop</h3>
                         <p><span>Venture first mover advantage incubators metrics</span> focus backing business-to-consumer</p>
                     </div>
                 </div>
             </div>
         </section>
         <section id="carousel" class="carousel">
-            <div>
-                <i class="fas fa-chevron-left"></i>
-                <img src="./creative-assets/home-3.jpeg" alt="">
-                <i class="fas fa-chevron-right"></i>
+            <div class="wrapper">
+                <div class="carousel-top">
+                    <i class="fas fa-chevron-left"></i>
+                    <div class="carousel-img">
+                        <img src="./creative-assets/home-3.jpeg" alt="">
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="carousel-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus deleniti reiciendis sapiente aliquam magni, dicta dolores soluta minus, neque ad illum vitae harum corrupti error. Sit voluptas veritatis numquam quia maxime quidem earum cumque amet tenetur, unde dignissimos error ducimus voluptates odio a illum iusto assumenda?</p>
+                </div>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus deleniti reiciendis sapiente aliquam magni, dicta dolores soluta minus, neque ad illum vitae harum corrupti error. Sit voluptas veritatis numquam quia maxime quidem earum cumque amet tenetur, unde dignissimos error ducimus voluptates odio a illum iusto assumenda?</p>
         </section>
-        <section>
+        <section id="services" class="services">
             <div>
                 <!-- might be better as a ul/li?  -->
                 <!-- icon -->
