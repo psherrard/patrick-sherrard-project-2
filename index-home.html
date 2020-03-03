@@ -4,42 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd9c679d1d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><h1>Creative</h1></li>
-                <li><a href="#shop">shop</a></li>
-                <li><a href="#contact">contact</a></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
-
+        <div class="wrapper">
+            <h1>Creative</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#shop">shop</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-shopping-bag"></i></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section id="brand-develop" class="brand-develop">
-            <img src="./creative-assets/home-circle-text.png" alt="">
-            <img src="./creative-assets/home-2.jpeg" alt="">
-            <div>
-                <h2>Branding</h2>
-                <p>Venture first mover advantage incubators metrics focus backing business-to-consumer</p>
-            </div>
-            <div>
-                <h2>Design & Develop</h2>
-                <p>Venture first mover advantage incubators metrics focus backing business-to-consumer</p>
+            <div class="wrapper">
+                <div class="brand-img-container"> 
+                    <img src="./creative-assets/home-2.jpeg" alt="">
+                </div>
+                <div class="brand-png">
+                    <img src="./creative-assets/home-circle-text.png" alt="">
+                </div>
+                <div class="brand-container">
+                    <div class="brand-text">
+                        <h2>Branding</h2>
+                        <p><span>Venture first mover advantage incubators metrics</span> focus backing business-to-consumer</p>
+                    </div>
+                    <div class="brand-text">
+                        <h2>Design & Develop</h2>
+                        <p><span>Venture first mover advantage incubators metrics</span> focus backing business-to-consumer</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="carousel" class="carousel">
             <div>
-                <!-- arrow -->
+                <i class="fas fa-chevron-left"></i>
                 <img src="./creative-assets/home-3.jpeg" alt="">
-                <!-- arrow -->
+                <i class="fas fa-chevron-right"></i>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus deleniti reiciendis sapiente aliquam magni, dicta dolores soluta minus, neque ad illum vitae harum corrupti error. Sit voluptas veritatis numquam quia maxime quidem earum cumque amet tenetur, unde dignissimos error ducimus voluptates odio a illum iusto assumenda?</p>
         </section>
