@@ -22,6 +22,7 @@
                 <ul>
                     <li><a href="#shop">shop</a></li>
                     <li><a href="#contact">contact</a></li>
+                    <!-- wrap <i> tags in <a> tags -->
                     <li><i class="fas fa-search"></i></li>
                     <li><i class="fas fa-shopping-bag"></i></li>
                 </ul>
@@ -164,11 +165,13 @@
                 <div class="contact-form">
                     <h3>Subscribe Now</h3>
                     <p>Signup for emails and Notifications Below.</p>
-                    <form action="">
-                        <!-- remember the visuallyHidden class in CSS -->
-                        <label class="visuallyHidden" for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Enter you email">
-                    </form>
+                    <div class="contact-form-email">
+                        <form action="">
+                            <label class="visuallyHidden" for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter you email">
+                        </form>
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
                 </div>
             </div>
         </section>
