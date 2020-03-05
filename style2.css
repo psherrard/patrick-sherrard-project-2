@@ -87,8 +87,8 @@ header nav li:hover {
     text-decoration: line-through;
 }
 /* -----------------------------------------------------  H E A D E R  (A B O V E)  ---------------------------------------------- */
-/*                                                  same css as style.css for the HOME page                                      */
-/*                                                          (not header element)                                                 */
+/*                                                  same css as style.css for the HOME page                                        */
+/*                                                          (not header element)                                                   */
 
 
 
@@ -137,6 +137,10 @@ header nav li:hover {
     font-family:'Open Sans', sans-serif;
     line-height: 24px;
     font-size:0.7rem;
+}
+
+.creative-main-text p{
+    margin-bottom:30px;
 }
 
 .creative span {
@@ -221,7 +225,6 @@ header nav li:hover {
 
 
 input[type="email"] {
-    /* background-color: #C3DAB7; */
     padding:8px 35px 8px 8px;
     border:none;
 }
@@ -238,6 +241,12 @@ input[type="email"] {
     align-items: center;
     justify-content: center;
     color: #333333;
+}
+
+.contact-icons i {
+    color:#FFFFFF;
+    padding-right:20px;
+    margin-top:30px;
 }
 
 footer {
