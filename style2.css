@@ -42,7 +42,9 @@ h3 {
 }
 
 
-/* ----------------------------------------------------This header is not the same as HOME style.css */
+/* -----------------------------------------------------------------------------------This header is not the same as HOME style.css */
+
+
 header {
     background-image: url(./creative-assets/blog-1.jpeg);
     height: 90vh;
@@ -52,16 +54,7 @@ header {
 }
 
 
-.creative h1 {
-    font-size:3.05rem;
-    flex:2 0 50%;
-    text-align: center;
-    letter-spacing: 0.9px;
-    text-transform: uppercase;
-    font-family:'Montserrat', sans-serif;
-    font-weight:700;
-}
-/* }--------------------------------------------------------------------------------------- */
+/* }--------------------------------------------------------------------------------------------------------------------------------- */
 
 header nav {
     display: flex;
@@ -93,9 +86,9 @@ header nav a {
 header nav li:hover {
     text-decoration: line-through;
 }
-/* ------------------------------------------------------------  H E A D E R  ---------------------------------------------- */
-/*                                                  same css as style.css for the HOME page                                   */
-/*                                                          (not header element)                                               */
+/* -----------------------------------------------------  H E A D E R  (A B O V E)  ---------------------------------------------- */
+/*                                                  same css as style.css for the HOME page                                      */
+/*                                                          (not header element)                                                 */
 
 
 
@@ -104,16 +97,77 @@ header nav li:hover {
     display:flex
 } */
 
+.admin {
+    display: flex;
+    width:40%;
+    align-items: center;
+}
+
 .admin-img img {
     /* width:10%; */
     /* object-fit: contain; */
     border-radius: 50%;
 }
 
+.admin-text p {
+    margin-left:20px;
+}
+
 .creative-info {
     display: flex;
     margin:60px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:30px;
+    border-bottom:1px solid #3030305e;
 }
+
+.creative h1 {
+    font-size:3.05rem;
+    flex:2 0 50%;
+    text-align: center;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    margin-bottom:40px;
+}
+
+.creative p {
+    font-family:'Open Sans', sans-serif;
+    line-height: 24px;
+    font-size:0.7rem;
+}
+
+.creative span {
+    font-weight: bold;
+}
+
+
+.related-posts ul {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.related-posts li {
+    /* flex-grow: 1; */
+    margin-right:40px;
+}
+
+.related-posts li:last-child {
+    margin-right:0px;
+}
+
+.related-posts img {
+    /* margin-right:40px; */
+    width:100%;
+}
+
+
+
+
+
+
 
 
 

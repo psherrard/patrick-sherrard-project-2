@@ -90,7 +90,21 @@ h3 {
     height:70px;
     /* width:0px; */
     border-right:1px solid #3030305e;
+}
 
+.fa-shopping-bag {
+    position: relative;
+}
+
+.two-icon p {
+    background-color: #C3DAB7;
+    border-radius: 50%;
+    font-size: 0.4rem;
+    font-family:'Open Sans', sans-serif;
+    padding:1px 3px 2px 3px;
+    position: absolute;
+    top: 9px;
+    left: 7px;
 }
 
 header {
@@ -425,8 +439,7 @@ header nav li:hover {
     padding: 9px 20px;
 }
 
-/* --------------------------------------------still need icons
- */
+/* --------------------------------------------  still need icons */
 
 .contact {
     background-color: #333333;
