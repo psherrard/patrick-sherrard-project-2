@@ -1,0 +1,81 @@
+@import 'setup';
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'home-index';
+@import 'blog-index';
+
+
+
+/* QUESTIONS */
+/* does hamburger have to work? */
+
+
+
+
+html {
+    font-size:125%;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* .wrapper-2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 98%;
+} */
+
+.wrapper-3 {
+    max-width: 1440px;
+    margin: 0 auto;
+    width:100%;
+}
+
+img {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+h1 {
+    font-size:1.85rem;
+    /* display: flex; */
+    flex:2 0 50%;
+    text-align: center;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+}
+
+h2 {
+    font-size:1.35rem;
+    text-align: center;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size:0.9rem;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 1.8px;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* font-weight:700; */
+}
+
+
+
+
+
+
+
+
+
+
+

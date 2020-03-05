@@ -1,0 +1,58 @@
+// make variable for background images
+
+// $background-image-1
+// $background-image-2
+// $background-image-2
+
+.fa-shopping-bag {
+    position: relative;
+}
+
+.two-icon p {
+    background-color: #C3DAB7;
+    border-radius: 50%;
+    font-size: 0.4rem;
+    font-family:'Open Sans', sans-serif;
+    padding:1px 3px 2px 3px;
+    position: absolute;
+    top: 9px;
+    left: 7px;
+}
+
+header {
+    // background-image: $background-image-1;
+    // height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;      
+}
+
+header nav li {
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.3px;
+    
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    width:25%;
+    justify-content: space-around;
+}
+
+
+header nav a {
+    text-decoration: none;
+    color:#333333;
+}
+
+header nav li:hover {
+    text-decoration: line-through;
+}
