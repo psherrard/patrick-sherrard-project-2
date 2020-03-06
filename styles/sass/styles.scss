@@ -7,11 +7,10 @@
 
 
 
-/* QUESTIONS */
-/* does hamburger have to work? */
 
-
-
+// body {
+//     background-color: red;
+// }
 
 html {
     font-size:125%;
@@ -54,7 +53,7 @@ h1 {
 
 h2 {
     font-size:1.35rem;
-    text-align: center;
+    // text-align: center;
     letter-spacing: 0.9px;
     text-transform: uppercase;
     font-family:'Montserrat', sans-serif;
@@ -70,6 +69,17 @@ h3 {
 }
 
 
+    // input[type="email"],
+    // input[type="text"],
+    // textarea {
+    //     border: none;
+    //     border-bottom:6px solid #303030;
+    //     // padding-bottom:50px;
+    //     color:#333333;
+    //     line-height: 24px;
+    //     font-family:'Open Sans', sans-serif;
+    //     font-size:0.7rem;
+    // }
 
 
 

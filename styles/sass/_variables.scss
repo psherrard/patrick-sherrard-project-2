@@ -1,19 +1,17 @@
-// make variable for background images
-
-$background-image-1:url(../creative-assets/home-1.jpeg);
-$background-image-2:url(../creative-assets/blog-1.jpeg);
-$background-image-3:url(../creative-assets/contact-1.jpeg);
+$background-image-1: url(../creative-assets/home-1.jpeg);
+$background-image-2: url(../creative-assets/blog-1.jpeg);
+$background-image-3: url(../creative-assets/contact-1.jpeg);
 
 $bg-height-1:100vh;
 $bg-height-2:90vh;
 $bg-height-3:185px;
 
-/* FONTS  */
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
+$font-1:'Montserrat', sans-serif;
+// $font-2: color:#333333, font-family:'Open Sans', sans-serif, line-height: 24px, font-size:0.7rem;
 
-/* COLOURS */
-/* Light sage / #C3DAB7 / 195, 218, 183 */
-/* White / #FFFFFF / 255, 255, 255 */
-/* White two / #F6F6F6 / 246, 246, 246 */
-/* Black / #333333 / 51, 51, 51 */
+$primary-color:#C3DAB7;
+
+$light-color-1:#FFFFFF;
+$light-color-2:#F6F6F6;
+$dark-color-1:#303030;
+$dark-color-2:#333333;

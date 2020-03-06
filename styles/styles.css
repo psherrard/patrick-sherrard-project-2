@@ -235,14 +235,6 @@ textarea {
   overflow: hidden;
 }
 
-/* FONTS  */
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
-/* COLOURS */
-/* Light sage / #C3DAB7 / 195, 218, 183 */
-/* White / #FFFFFF / 255, 255, 255 */
-/* White two / #F6F6F6 / 246, 246, 246 */
-/* Black / #333333 / 51, 51, 51 */
 .fa-shopping-bag {
   position: relative;
 }
@@ -349,7 +341,7 @@ header nav li:hover {
   margin-bottom: 30px;
 }
 
-input[type="email"] {
+.contact input[type="email"] {
   /* background-color: #C3DAB7; */
   padding: 8px 35px 8px 8px;
   border: none;
@@ -405,6 +397,10 @@ footer p {
 header {
   background-image: url(../creative-assets/home-1.jpeg);
   height: 100vh;
+}
+
+.home-page h2 {
+  text-align: center;
 }
 
 .brand-develop {
@@ -548,7 +544,7 @@ header {
 .box .fas {
   /* width:40px; */
   /* height:40px; */
-  border: 3px solid black;
+  border: 2.5px solid black;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -560,7 +556,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 20px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-right: 20px;
 }
 
@@ -595,7 +591,7 @@ header {
 }
 
 .service-blank-box {
-  /* width:50%; */
+  /* width:50%;----------------------------- */
   -webkit-box-flex: 1;
       -ms-flex: 1 0 45%;
           flex: 1 0 45%;
@@ -759,15 +755,39 @@ header {
   padding: 9px 20px;
 }
 
-header {
+.blog-page {
+  /* .creative-top {
+        display:flex
+    } */
+}
+
+.blog-page .creative h1 {
+  margin-top: 90px;
+}
+
+.blog-page header {
   background-image: url(../creative-assets/blog-1.jpeg);
   height: 90vh;
 }
 
-/* .creative-top {
-    display:flex
-} */
-.admin {
+.blog-page .social-icons {
+  color: #333333;
+}
+
+.blog-page .social p {
+  font-size: 6.35rem;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blog-page .leave-comment h2 {
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #3030305e;
+}
+
+.blog-page .admin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -777,17 +797,17 @@ header {
           align-items: center;
 }
 
-.admin-img img {
+.blog-page .admin-img img {
   /* width:10%; */
   /* object-fit: contain; */
   border-radius: 50%;
 }
 
-.admin-text p {
+.blog-page .admin-text p {
   margin-left: 20px;
 }
 
-.creative-info {
+.blog-page .creative-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -802,7 +822,7 @@ header {
   border-bottom: 1px solid #3030305e;
 }
 
-.creative h1 {
+.blog-page .creative h1 {
   font-size: 3.05rem;
   -webkit-box-flex: 2;
       -ms-flex: 2 0 50%;
@@ -815,43 +835,74 @@ header {
   margin-bottom: 40px;
 }
 
-.creative p {
+.blog-page .creative p {
   font-family: 'Open Sans', sans-serif;
   line-height: 24px;
   font-size: 0.7rem;
 }
 
-.creative-main-text p {
+.blog-page .creative-main-text p {
   margin-bottom: 30px;
 }
 
-.creative span {
+.blog-page .creative span {
   font-weight: bold;
 }
 
-.related-posts ul {
+.blog-page .related-posts ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   /* justify-content: space-between; */
 }
 
-.related-posts li {
+.blog-page .related-posts li {
   /* flex-grow: 1; */
   margin-right: 40px;
 }
 
-.related-posts li:last-child {
+.blog-page .related-posts li:last-child {
   margin-right: 0px;
 }
 
-.related-posts img {
+.blog-page .related-posts img {
   /* margin-right:40px; */
   width: 100%;
 }
 
-/* QUESTIONS */
-/* does hamburger have to work? */
+.blog-page .comments {
+  margin-top: 100px;
+}
+
+.blog-page .form-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.blog-page textarea {
+  resize: none;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.blog-page input[type="email"],
+.blog-page input[type="text"],
+.blog-page textarea {
+  border: none;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 10px;
+  padding-right: 170px;
+  color: #333333;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+}
+
 html {
   font-size: 125%;
 }
@@ -895,7 +946,6 @@ h1 {
 
 h2 {
   font-size: 1.35rem;
-  text-align: center;
   letter-spacing: 0.9px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;

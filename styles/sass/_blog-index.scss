@@ -1,79 +1,171 @@
-header {
-    background-image: $background-image-2;
-    height: $bg-height-2;
-}
+.blog-page {
+
+    .creative h1 {
+        margin-top:90px;
+    }
+
+    // body {
+    //     background-color: red;
+    // }
+
+    header {
+        background-image: $background-image-2;
+        height: $bg-height-2;
+    }
 
 
-/* .creative-top {
-    display:flex
-} */
 
-.admin {
+
+    .social-icons {
+        // color:$dark-color-1
+        color:#333333;
+    }
+
+    .social p {
+        font-size:6.35rem;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        font-family:'Montserrat', sans-serif;
+    }
+
+
+
+
+    .leave-comment h2 {
+        margin-bottom: 100px;
+        padding-bottom:50px;
+        border-bottom: 1px solid #3030305e;
+    }
+
+
+
+    /* .creative-top {
+        display:flex
+    } */
+
+    .admin {
+        display: flex;
+        width:40%;
+        align-items: center;
+    }
+
+    .admin-img img {
+        /* width:10%; */
+        /* object-fit: contain; */
+        border-radius: 50%;
+    }
+
+    .admin-text p {
+        margin-left:20px;
+    }
+
+    .creative-info {
+        display: flex;
+        margin:60px 0;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom:30px;
+        border-bottom:1px solid #3030305e;
+    }
+
+    .creative h1 {
+        font-size:3.05rem;
+        flex:2 0 50%;
+        text-align: center;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        margin-bottom:40px;
+    }
+
+    .creative p {
+        font-family:'Open Sans', sans-serif;
+        line-height: 24px;
+        font-size:0.7rem;
+    }
+
+    .creative-main-text p{
+        margin-bottom:30px;
+    }
+
+    .creative span {
+        font-weight: bold;
+    }
+
+
+    .related-posts ul {
     display: flex;
-    width:40%;
-    align-items: center;
-}
+    /* justify-content: space-between; */
+    }
 
-.admin-img img {
-    /* width:10%; */
-    /* object-fit: contain; */
-    border-radius: 50%;
-}
+    .related-posts li {
+        /* flex-grow: 1; */
+        margin-right:40px;
+    }
 
-.admin-text p {
-    margin-left:20px;
-}
+    .related-posts li:last-child {
+        margin-right:0px;
+    }
 
-.creative-info {
-    display: flex;
-    margin:60px 0;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom:30px;
-    border-bottom:1px solid #3030305e;
-}
-
-.creative h1 {
-    font-size:3.05rem;
-    flex:2 0 50%;
-    text-align: center;
-    letter-spacing: 0.9px;
-    text-transform: uppercase;
-    font-family:'Montserrat', sans-serif;
-    font-weight:700;
-    margin-bottom:40px;
-}
-
-.creative p {
-    font-family:'Open Sans', sans-serif;
-    line-height: 24px;
-    font-size:0.7rem;
-}
-
-.creative-main-text p{
-    margin-bottom:30px;
-}
-
-.creative span {
-    font-weight: bold;
-}
+    .related-posts img {
+        /* margin-right:40px; */
+        width:100%;
+    }
 
 
-.related-posts ul {
-  display: flex;
-  /* justify-content: space-between; */
-}
+    .comments {
+        margin-top:100px;
+    }
 
-.related-posts li {
-    /* flex-grow: 1; */
-    margin-right:40px;
-}
 
-.related-posts li:last-child {
-    margin-right:0px;
-}
 
-.related-posts img {
-    /* margin-right:40px; */
-    width:100%;
+
+    .form-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:50px;
+    }
+
+    // .form-top input,
+    // .form-bottom input {
+    //     padding-bottom:10px;
+    // }
+
+    textarea { 
+        resize: none; 
+        width:100%;
+        margin-bottom: 50px;
+    }
+
+    input[type="email"],
+    input[type="text"],
+    textarea {
+        border: none;
+        border-bottom:1px solid #303030;
+        padding-bottom:10px;
+        padding-right:170px;
+        // padding-right:14%;
+        color:#333333;
+        line-height: 24px;
+        font-family:'Open Sans', sans-serif;
+        font-size:0.7rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
