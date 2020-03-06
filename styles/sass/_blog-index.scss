@@ -1,7 +1,26 @@
 .blog-page {
-
+    
     .creative h1 {
+        font-size:3.05rem;
+        flex:2 0 50%;
+        text-align: center;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        margin-bottom:40px;
         margin-top:90px;
+    }
+
+    .related-posts h2 {
+    font-size:1.85rem;
+    /* display: flex; */
+    // flex:2 0 50%;
+    // text-align: center;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
     }
 
     // body {
@@ -13,19 +32,23 @@
         height: $bg-height-2;
     }
 
+    .social {
+        display: flex;
+    }
 
 
-
-    .social-icons {
-        // color:$dark-color-1
-        color:#333333;
+    .social-icons a {
+        color:$dark-color-1;
+        margin-left:15px;
+        // color:#333333;
     }
 
     .social p {
-        font-size:6.35rem;
+        font-size:1rem;
         letter-spacing: 0.9px;
         text-transform: uppercase;
         font-family:'Montserrat', sans-serif;
+        margin-right:15px;
     }
 
 
@@ -68,18 +91,11 @@
         border-bottom:1px solid #3030305e;
     }
 
-    .creative h1 {
-        font-size:3.05rem;
-        flex:2 0 50%;
-        text-align: center;
-        letter-spacing: 0.9px;
-        text-transform: uppercase;
-        font-family:'Montserrat', sans-serif;
-        font-weight:700;
-        margin-bottom:40px;
-    }
+    
 
-    .creative p {
+    .creative-main-text p,
+    .creative-top p,
+    .creative-info p {
         font-family:'Open Sans', sans-serif;
         line-height: 24px;
         font-size:0.7rem;
@@ -119,6 +135,9 @@
     }
 
 
+    .related-posts {
+        margin-top:80px;
+    }
 
 
     .form-top {
@@ -142,7 +161,7 @@
     input[type="text"],
     textarea {
         border: none;
-        border-bottom:1px solid #303030;
+        border-bottom:0.5px solid #303030;
         padding-bottom:10px;
         padding-right:170px;
         // padding-right:14%;
