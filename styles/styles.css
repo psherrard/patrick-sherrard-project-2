@@ -394,6 +394,47 @@ footer p {
   text-transform: uppercase;
 }
 
+.form-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.form-box input[type="email"],
+.form-box input[type="text"],
+.form-box textarea {
+  border: none;
+  border-bottom: 0.5px solid #303030;
+  padding-bottom: 10px;
+  padding-right: 170px;
+  color: #333333;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+}
+
+.form-box button {
+  border: none;
+  border-bottom: 0.5px solid #303030;
+  padding-bottom: 10px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.7px;
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+}
+
 header {
   background-image: url(../creative-assets/home-1.jpeg);
   height: 100vh;
@@ -782,6 +823,9 @@ header {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #3030305e;
 }
 
 .blog-page header {
@@ -796,7 +840,7 @@ header {
 }
 
 .blog-page .social-icons a {
-  color: #303030;
+  color: #333333;
   margin-left: 15px;
 }
 
@@ -830,8 +874,12 @@ header {
   border-radius: 50%;
 }
 
-.blog-page .admin-text p {
+.blog-page .admin-text {
   margin-left: 20px;
+}
+
+.blog-page .creative-text p {
+  color: #333333;
 }
 
 .blog-page .creative-info {
@@ -886,51 +934,22 @@ header {
   width: 100%;
 }
 
-.blog-page .comments {
-  margin-top: 100px;
+.blog-page .related-content p {
+  font-size: 0.9rem;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.blog-page .comments,
+.blog-page .leave-comment {
+  margin: 100px 0;
 }
 
 .blog-page .related-posts {
   margin-top: 80px;
-}
-
-.blog-page .form-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 50px;
-}
-
-.blog-page textarea {
-  resize: none;
-  width: 100%;
-  margin-bottom: 50px;
-}
-
-.blog-page input[type="email"],
-.blog-page input[type="text"],
-.blog-page textarea {
-  border: none;
-  border-bottom: 0.5px solid #303030;
-  padding-bottom: 10px;
-  padding-right: 170px;
-  color: #333333;
-  line-height: 24px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.7rem;
-}
-
-.blog-page .leave-comment button {
-  border: none;
-  border-bottom: 0.5px solid #303030;
-  padding-bottom: 10px;
-  line-height: 24px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.7rem;
-  background-color: #FFFFFF;
 }
 
 html {
