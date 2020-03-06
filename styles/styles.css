@@ -923,6 +923,16 @@ header {
   font-size: 0.7rem;
 }
 
+.blog-page .leave-comment button {
+  border: none;
+  border-bottom: 0.5px solid #303030;
+  padding-bottom: 10px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+  background-color: #FFFFFF;
+}
+
 html {
   font-size: 125%;
 }

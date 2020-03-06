@@ -140,16 +140,15 @@
     }
 
 
+
+    // ------------------------------------------------ F O R M -------------------------------------------------------------------
+    // ---------------------------------------------(make this scss) -------------------------------------------------------------------
+
     .form-top {
         display: flex;
         justify-content: space-between;
         margin-bottom:50px;
     }
-
-    // .form-top input,
-    // .form-bottom input {
-    //     padding-bottom:10px;
-    // }
 
     textarea { 
         resize: none; 
@@ -171,6 +170,18 @@
         font-size:0.7rem;
     }
 
+
+    .leave-comment button {
+        border: none;
+        border-bottom:0.5px solid #303030;
+        padding-bottom:10px;
+        // color:#333333;
+        line-height: 24px;
+        font-family:'Open Sans', sans-serif;
+        font-size:0.7rem;
+        background-color:$light-color-1;
+        // background-color: none;
+    }
 
 
 
