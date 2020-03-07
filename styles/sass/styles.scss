@@ -84,6 +84,17 @@ h3 {
 
 
 
+@mixin font-size($size-value) {
+    // font-size:1.35rem;
+    font-size:($size-value);
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+}
+
+// h1 {
+//   @include font-size(1.35rem);
+// }
 
 
 
