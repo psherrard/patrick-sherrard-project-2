@@ -632,7 +632,7 @@ header {
 }
 
 .service-blank-box {
-  /* width:50%;----------------------------- */
+  /* width:45%;----------------------------- */
   -webkit-box-flex: 1;
       -ms-flex: 1 0 45%;
           flex: 1 0 45%;
@@ -653,13 +653,6 @@ header {
   width: 90%;
 }
 
-/* -------------------------------------------------------------------------------------- */
-/* .meet-our-team img {
-    /* height:300px; 
-    height:20%;
-    width:20%;
-    object-fit: cover;
-} */
 .meet-our-team h2 {
   margin-bottom: 110px;
 }
@@ -796,10 +789,9 @@ header {
   padding: 9px 20px;
 }
 
-.blog-page {
-  /* .creative-top {
-        display:flex
-    } */
+.blog-page header {
+  background-image: url(../creative-assets/blog-1.jpeg);
+  height: 90vh;
 }
 
 .blog-page .creative h1 {
@@ -818,7 +810,6 @@ header {
 
 .blog-page .related-posts h2 {
   font-size: 1.85rem;
-  /* display: flex; */
   letter-spacing: 0.9px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -828,9 +819,26 @@ header {
   border-bottom: 1px solid #3030305e;
 }
 
-.blog-page header {
-  background-image: url(../creative-assets/blog-1.jpeg);
-  height: 90vh;
+.blog-page .comment-section h2 {
+  font-size: 1.85rem;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #3030305e;
+}
+
+.blog-page .leave-comment h2 {
+  font-size: 1.85rem;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #3030305e;
 }
 
 .blog-page .social {
@@ -850,12 +858,6 @@ header {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   margin-right: 15px;
-}
-
-.blog-page .leave-comment h2 {
-  margin-bottom: 100px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #3030305e;
 }
 
 .blog-page .admin {
@@ -950,6 +952,84 @@ header {
 
 .blog-page .related-posts {
   margin-top: 80px;
+}
+
+.blog-page .comment-section {
+  margin-top: 100px;
+}
+
+.blog-page .tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #f6f6f6;
+}
+
+.blog-page .tip-left {
+  top: 10px;
+  left: -25px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.blog-page .dialogbox .dialog-body-one,
+.blog-page .dialogbox .dialog-body-two {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0px 10px 20px 35px;
+  padding: 5px 20px;
+  background-color: #f6f6f6;
+  border-radius: 3px;
+  border: 5px solid #f6f6f6;
+}
+
+.blog-page .dialogbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-page .dialog-comment-name p {
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.blog-page .dialog-comment-name span {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+  font-size: 0.7rem;
+  color: #637754;
+  text-transform: none;
+  font-style: italic;
+}
+
+.blog-page .dialog-comment-message {
+  color: #333333;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blog-page .dialog-comment-date {
+  color: #a7a7a7;
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-page header {
+  background-image: none;
+}
+
+.contact-page .header-img {
+  background-image: url(../creative-assets/contact-1.jpeg);
+  height: 185px;
+  margin-top: 30px;
 }
 
 html {
