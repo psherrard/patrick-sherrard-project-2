@@ -1185,6 +1185,10 @@ header {
 }
 
 @media (max-width: 976px) {
+  header nav ul {
+    height: 0;
+    overflow: hidden;
+  }
   .service-blank-box {
     display: none;
   }
@@ -1265,7 +1269,7 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 20px;
+    padding: 0 30px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1379,8 +1383,42 @@ header {
 }
 
 @media (max-width: 575px) {
+  .brand-img-2 {
+    top: -50px;
+    left: -50px;
+  }
   .brand-img-2 img {
     height: 100px;
+  }
+  .team-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .seven {
+    padding: 75px 0;
+  }
+  .carousel-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 460px) {
+  .brand-img-2 {
+    height: 0;
+    overflow: hidden;
+  }
+  .brand-develop {
+    padding-top: 90px;
+  }
+  .blog-page .dialogbox .dialog-body-one,
+  .blog-page .dialogbox .dialog-body-two {
+    margin-left: 15px;
+    margin-right: 0px;
   }
 }
 

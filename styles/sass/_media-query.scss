@@ -55,10 +55,6 @@
 
 
 
-
-
-
-
 // ------------------------------------------------------- H E A D E R ----------------------------------------------------------
 // --------------------------------------------------------( Below )-------------------------------------------------------------
 // --------------------------------------------------------( 976px )-------------------------------------------------------------
@@ -66,7 +62,10 @@
 
 @media(max-width:976px) {
     
-
+    header nav ul {
+        height:0;
+        overflow: hidden;
+    }
     // h1 {
     //     flex:2 0 40%;
     // }
@@ -213,7 +212,7 @@
 
     .service-container {
         flex-direction: column;
-        padding:0 20px;
+        padding:0 30px;
         justify-content: center;
         align-items: center;
     }
@@ -351,16 +350,60 @@
 @media (max-width:575px) {
 
 
+// ---------------------------------------------------- H O M E  P A G E --------------------------------------------------------
+// --------------------------------------------------------( Below )-------------------------------------------------------------
+// --------------------------------------------------------( 790px )-------------------------------------------------------------
+
+
+    .brand-img-2 {
+        top:-50px;
+        left:-50px;
+    }
 
     .brand-img-2 img {
         height:100px;
     }
 
 
+    .team-grid {
+        display:flex;
+        flex-direction: column;
+    }
+
+
+    .seven {
+        padding:75px 0;
+    }
+
+     .carousel-img img {
+        width:60%;
+    }
+
+
+}
+
+@media (max-width:460px) {
+
+    .brand-img-2 {
+        height:0;
+        overflow: hidden;
+    }
+
+
+    .brand-develop {
+        padding-top:90px;
+    }
+
+
+    .blog-page .dialogbox .dialog-body-one, 
+    .blog-page .dialogbox .dialog-body-two {
+        margin-left:15px;
+        margin-right:0px;
+    }
 
 
 
-
-
+    // footer size
+// blog post h1
 
 }
