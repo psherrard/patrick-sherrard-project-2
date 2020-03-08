@@ -102,6 +102,10 @@
     .meet-our-team h2 {
         margin-bottom: 90px;
     }
+
+    .carousel-img img {
+        width:40%;
+    }
 // --------------------------------------------------- B L O G  P A G E ---------------------------------------------------------
 // --------------------------------------------------------( Below )-------------------------------------------------------------
 // --------------------------------------------------------( 976px )-------------------------------------------------------------
@@ -232,6 +236,11 @@
         padding:11% 11%;
     }
 
+    .brand-img-1 img {
+        height:200px;
+        width:100%;
+        object-fit: contain;
+    }
 
 
 // ---------------------------------------------------- B L O G  P A G E --------------------------------------------------------
@@ -240,7 +249,6 @@
 
     .blog-page .related-posts img {
         max-width:100%;
-
     }
 
 
@@ -258,9 +266,24 @@
     }
 
 
+    .blog-page .creative-info {
+        flex-direction: column;
+    }
 
+    .admin {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .blog-page .admin-text {
+        margin:10px 0 30px 0;
+    }
 
+    .creative-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 
 
 
@@ -323,6 +346,15 @@
     }
 
 
+}
+
+@media (max-width:575px) {
+
+
+
+    .brand-img-2 img {
+        height:100px;
+    }
 
 
 
