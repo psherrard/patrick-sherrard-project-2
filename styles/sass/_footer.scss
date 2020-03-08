@@ -1,5 +1,5 @@
 .contact {
-    background-color: #333333;
+    background-color: $dark-color-1;
     padding:120px 0;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .contact-container {
-    color: #FFFFFF;
+    color: $light-color-1;
     display: flex;
     justify-content: space-between;
 }
@@ -53,22 +53,22 @@
 }
 
 .contact-form .fas {
-    background-color: #C3DAB7;
+    background-color: $primary-color;
     padding:8.5px 12.5px 8.5px 12.5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #333333;
+    color: $dark-color-1;
 }
 
 .contact-icons i {
-    color:#FFFFFF;
+    color:$light-color-1;
     padding-right:20px;
     margin-top:30px;
 }
 
 footer {
-    background-color: #333333;
+    background-color: $dark-color-1;
     border-top: 0.5px solid rgba(246, 246, 246, 0.5);
 
     color: #FFFFFF;
@@ -84,3 +84,5 @@ footer p {
     line-height: 24px;
     text-transform: uppercase;
 }
+
+// --------------------------------------------- M E D I A  Q U E R Y --------------------------------------------------------------

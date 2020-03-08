@@ -56,3 +56,16 @@ header nav a {
 header nav li:hover {
     text-decoration: line-through;
 }
+
+// --------------------------------------------- M E D I A  Q U E R Y --------------------------------------------------------------
+
+
+@media(max-width:976px) {
+    
+    header nav ul {
+        width:32%
+    }
+
+
+}
+
