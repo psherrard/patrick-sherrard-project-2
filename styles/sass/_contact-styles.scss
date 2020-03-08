@@ -43,7 +43,8 @@
         line-height: 71px;
     }
 
-    .main-text h2 span {
+    .main-text h2 span,
+    .contact-details span {
         display: block;
     }
 
@@ -54,30 +55,84 @@
         line-height: 24px;
         text-transform: uppercase;
         font-weight: 700;
+        margin-bottom: 20px;
     }
 
     .details-box {
         display: flex;
         justify-content: space-around;
-        align-items: center;
         margin:100px 0;
     }
 
+    // .details-box p {
+    //     margin-bottom:10px;
+    // }
+
+    .phone-details-box p:first-child,
+    .address-details-box p:first-child,
+    .email-details-box p:first-child {
+        font-size:0.9rem;
+        font-family:'Montserrat', sans-serif;
+        letter-spacing: 7px;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-bottom:10px;
+    }
+
+    // .phone-details-box p:nth-child(2),
+    // .address-details-box p:nth-child(2),
+    // .email-details-box p:nth-child(2),
+    // .phone-details-box p:nth-child(3),
+    // .address-details-box p:nth-child(3),
+    // .email-details-box p:nth-child(3) {
+    //     font-family:'Open Sans', sans-serif;
+    //     line-height: 24px;
+    //     font-size:0.7rem;
+    //     margin-bottom:5px;
+    // }
+
+    .phone-details-box p,
+    .address-details-box p,
+    .email-details-box p {
+        font-family:'Open Sans', sans-serif;
+        line-height: 24px;
+        font-size:0.7rem;
+        margin-bottom:5px;
+    }
+
+    .contact-details p {
+        font-family:'Open Sans', sans-serif;
+        line-height: 24px;
+        font-size:0.7rem;
+        margin-bottom:5px;
+    }
+
+
     .details-box .fas {
         font-size:2rem;
+        margin-bottom:30px;
     }
 
-    .details-line {
-        border-right:1px solid #303030;
-        padding:100px 0;
-        height:80px;
+    .phone-details-box {
+        border-right: 1px solid black;
+        padding: 30px 80px 30px 0;
+    }
+
+    .address-details-box {
+        padding:30px 0;
+    }
+
+
+    .email-details-box {
+        padding: 30px 0px 30px 80px;
+        border-left: 1px solid black;
     }
 
 
 
-
-
-
+    .contact-details-bottom {
+        margin-bottom: 100px;
+    }
 
 
 
