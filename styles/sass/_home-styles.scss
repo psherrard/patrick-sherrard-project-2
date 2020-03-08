@@ -290,49 +290,64 @@ header {
 // --------------------------------------------- M E D I A  Q U E R Y --------------------------------------------------------------
 
 
-@media (max-width:1230px) {
+// @media (max-width:1230px) {
 
-    .services {
-        background-position-x: right;
-    }
+//     .services {
+//         background-position-x: right;
+//     }
 
-    .service-blank-box {
-        flex: 1 0 30%;
-    }
-
-
-    .team-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-        grid-auto-rows: minmax(100px, auto);
-    }
-
-    .one {
-        grid-column:1 / 3;
-        grid-row:1;
-        display:flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        background-color: #F6F6F6;
-        padding:75px 50px;
-    }
-
-}
+//     .service-blank-box {
+//         flex: 1 0 30%;
+//     }
 
 
+//     .team-grid {
+//         display: grid;
+//         grid-template-columns: repeat(2, 1fr);
+//         grid-gap: 20px;
+//         grid-auto-rows: minmax(100px, auto);
+//     }
+
+//     .one {
+//         grid-column:1 / 3;
+//         grid-row:1;
+//         display:flex;
+//         flex-direction: column;
+//         justify-content: flex-end;
+//         background-color: #F6F6F6;
+//         padding:75px 50px;
+//     }
+
+// }
 
 
 
+// @media (max-width:976px) {
+
+
+//     .service-blank-box {
+//         display: none;
+//     }
+
+//     .service-list-1 {
+//         margin-right:30px;
+//     }
+
+//     .service-container {
+//         padding-left: 110px;
+//         padding-right: 40px;
+//     }
+
+
+//     header nav ul {
+//         display: flex;
+//         align-items: center;
+//         width:32%;
+//         justify-content: space-around;
+//     }
 
 
 
 
 
-
-
-
-@media (max-width:768px) {
-
-
-}
+// }

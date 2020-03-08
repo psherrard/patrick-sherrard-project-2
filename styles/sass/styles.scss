@@ -6,6 +6,7 @@
 @import 'home-styles';
 @import 'blog-styles';
 @import 'contact-styles';
+@import 'media-query';
 
 
 
@@ -71,27 +72,14 @@ h3 {
 }
 
 
-    // input[type="email"],
-    // input[type="text"],
-    // textarea {
-    //     border: none;
-    //     border-bottom:6px solid #303030;
-    //     // padding-bottom:50px;
-    //     color:#333333;
-    //     line-height: 24px;
-    //     font-family:'Open Sans', sans-serif;
-    //     font-size:0.7rem;
-    // }
 
-
-
-@mixin font-size($size-value) {
-    // font-size:1.35rem;
-    font-size:($size-value);
-    letter-spacing: 0.9px;
-    text-transform: uppercase;
-    font-family:'Montserrat', sans-serif;
-}
+// @mixin font-size($size-value) {
+//     // font-size:1.35rem;
+//     font-size:($size-value);
+//     letter-spacing: 0.9px;
+//     text-transform: uppercase;
+//     font-family:'Montserrat', sans-serif;
+// }
 
 // h1 {
 //   @include font-size(1.35rem);
@@ -104,5 +92,4 @@ h3 {
 // contact from on bottom, add button
 // try and add focus state to nav and other buttons
 // ALT TAGS!!!!!!!!!!!!!!
-
 
