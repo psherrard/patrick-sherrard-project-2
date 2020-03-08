@@ -1195,38 +1195,91 @@ header {
     padding-left: 110px;
     padding-right: 40px;
   }
-}
-
-@media (max-width: 976px) {
+  .meet-our-team {
+    margin: 40px 0;
+  }
+  .meet-our-team h2 {
+    margin-bottom: 90px;
+  }
+  .blog-page .admin {
+    width: auto;
+  }
+  .contact-page .phone-details-box {
+    padding: 30px 40px 30px 0;
+  }
+  .contact-page .email-details-box {
+    padding: 30px 0 30px 40px;
+  }
   .form-box input[type="email"],
   .form-box input[type="text"],
   .form-box textarea {
     padding-right: 20px;
   }
-}
-
-@media (max-width: 976px) {
-  .contact-address {
-    text-align: center;
+  .contact {
+    padding: 80px 0;
   }
   .contact-container {
-    color: #FFFFFF;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .contact-form {
+  .contact-form,
+  .contact-post,
+  .contact-address {
     text-align: center;
+  }
+  .contact-form-email {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-address,
+  .contact-post {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 790px) {
+  .brand-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .brand-text-1,
+  .brand-text-2 {
+    margin-top: 70px;
+  }
+  .service-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services {
+    background-image: none;
+    background-repeat: none;
+    background-size: none;
+    height: auto;
+    padding: 80px 0;
+    background-color: #ebebeb;
+  }
+  .portfolio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio-text {
+    padding: 11% 11%;
   }
 }
 
