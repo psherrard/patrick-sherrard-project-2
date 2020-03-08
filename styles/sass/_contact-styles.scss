@@ -2,6 +2,7 @@
 
     header {
         background-image:none;
+        height:300px;
 
     }
 
@@ -9,12 +10,56 @@
         background-image:$background-image-3;
         height:$bg-height-3;
         margin-top:30px;
+        background-position: center;
+    }
+
+    .contact-details {
+        margin-top:100px;
+    }
+
+    .main-text h2 {
+        font-size:3.05rem;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        line-height: 71px;
+    }
+
+    .main-text h2 span {
+        display: block;
+    }
+
+    h2 {
+        font-size:0.9rem;
+        font-family:'Montserrat', sans-serif;
+        letter-spacing: 1.8px;
+        line-height: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+    .pre-footer-img {
+        background-image:url(../creative-assets/contact-2.jpeg);
+        height: 683px;
+        background-position: center;
+        background-repeat:no-repeat;
+        margin-top: 100px;
+    }
 
 
 
