@@ -1041,10 +1041,27 @@ header {
   height: 200px;
   margin-top: 30px;
   background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .contact-page .contact-details {
-  margin-top: 100px;
+  margin-top: 200px;
+}
+
+.contact-page .design-line {
+  width: 50px;
+  border-top: 5px solid #333333;
+  margin-bottom: 40px;
+}
+
+.contact-page main {
+  position: relative;
+}
+
+.contact-page .main-text {
+  position: absolute;
+  top: -340px;
 }
 
 .contact-page .main-text h2 {
@@ -1067,6 +1084,28 @@ header {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.contact-page .details-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px 0;
+}
+
+.contact-page .details-box .fas {
+  font-size: 2rem;
+}
+
+.contact-page .details-line {
+  border-right: 1px solid #303030;
+  padding: 100px 0;
+  height: 80px;
 }
 
 .contact-page .pre-footer-img {

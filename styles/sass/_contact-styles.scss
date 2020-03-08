@@ -11,10 +11,27 @@
         height:$bg-height-3;
         margin-top:30px;
         background-position: center;
+        background-repeat: no-repeat;
+        width:100%;
     }
 
     .contact-details {
-        margin-top:100px;
+        margin-top:200px;
+    }
+
+    .design-line {
+        width:50px;
+        border-top: 5px solid $dark-color-1;
+        margin-bottom:40px;
+    }
+
+    main {
+        position: relative;
+    }
+
+    .main-text {
+        position: absolute;
+        top: -340px;
     }
 
     .main-text h2 {
@@ -39,7 +56,22 @@
         font-weight: 700;
     }
 
+    .details-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin:100px 0;
+    }
 
+    .details-box .fas {
+        font-size:2rem;
+    }
+
+    .details-line {
+        border-right:1px solid #303030;
+        padding:100px 0;
+        height:80px;
+    }
 
 
 
