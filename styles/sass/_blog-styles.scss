@@ -126,11 +126,9 @@
 
     .related-posts ul {
         display: flex;
-    /* justify-content: space-between; */
     }
 
     .related-posts li {
-        /* flex-grow: 1; */
         margin-right:40px;
     }
 
@@ -139,11 +137,9 @@
     }
 
     .related-posts img {
-        /* margin-right:40px; */
         width:100%;
     }
 
-// NOTE: I had to change this font size
     .related-content p {
         font-size:0.9rem;
         letter-spacing: 0.9px;
@@ -154,7 +150,6 @@
     }
 
 
-    .comments,
     .leave-comment {
         margin:100px 0;
     }
@@ -200,7 +195,6 @@
         display:flex;
     }
 
-
     .dialog-comment-name p  {
         font-size:0.8rem;
         font-family:'Montserrat', sans-serif;
@@ -233,18 +227,4 @@
         margin-top:10px;
         padding-bottom:30px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

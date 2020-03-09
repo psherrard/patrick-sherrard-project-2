@@ -1,10 +1,9 @@
 .fa-bars {
     visibility: hidden;
     font-size: 1.2rem;
-    // float:right;
-    text-align: left;
-    // margin-top: 30px;
     position: fixed;
+    padding:10px 10px 10px 30px;
+    background-color: rgba(195, 218, 183, 0.514);
     z-index: 1;
 }
 
@@ -14,7 +13,7 @@
 }
 
 .two-icon p {
-    background-color: #C3DAB7;
+    background-color:$primary-color;
     border-radius: 50%;
     font-size: 0.4rem;
     font-family:'Open Sans', sans-serif;

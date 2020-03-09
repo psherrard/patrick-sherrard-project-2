@@ -1,46 +1,46 @@
 @import 'setup';
 
 
-html {
-    font-size:125%;
-}
+// html {
+//     font-size:125%;
+// }
 
-.wrapper {
-    max-width: 1280px;
-    margin: 0 auto;
-    width: 80%;
-}
+// .wrapper {
+//     max-width: 1280px;
+//     margin: 0 auto;
+//     width: 80%;
+// }
 
-.wrapper-3 {
-    max-width: 1440px;
-    margin: 0 auto;
-    width:100%;
-}
+// .wrapper-3 {
+//     max-width: 1440px;
+//     margin: 0 auto;
+//     width:100%;
+// }
 
 
-h1 {
-    font-size:1.85rem;
-    text-align: center;
-    letter-spacing: 0.9px;
-    text-transform: uppercase;
-    font-family:'Montserrat', sans-serif;
-    font-weight:700;
-}
+// h1 {
+//     font-size:1.85rem;
+//     text-align: center;
+//     letter-spacing: 0.9px;
+//     text-transform: uppercase;
+//     font-family:'Montserrat', sans-serif;
+//     font-weight:700;
+// }
 
-h2 {
-    font-size:1.35rem;
-    letter-spacing: 0.9px;
-    text-transform: uppercase;
-    font-family:'Montserrat', sans-serif;
-}
+// h2 {
+//     font-size:1.35rem;
+//     letter-spacing: 0.9px;
+//     text-transform: uppercase;
+//     font-family:'Montserrat', sans-serif;
+// }
 
-h3 {
-    font-size:0.9rem;
-    font-family:'Montserrat', sans-serif;
-    letter-spacing: 1.8px;
-    line-height: 24px;
-    text-transform: uppercase;
-}
+// h3 {
+//     font-size:0.9rem;
+//     font-family:'Montserrat', sans-serif;
+//     letter-spacing: 1.8px;
+//     line-height: 24px;
+//     text-transform: uppercase;
+// }
 
 @import 'variables';
 @import 'header';
@@ -53,5 +53,4 @@ h3 {
 
 // TO DO :
 // carousel arrows hover state and other buttons 
-// contact from on bottom, add button
 // try and add focus state to nav and other buttons

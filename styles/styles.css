@@ -278,8 +278,9 @@ h3 {
 .fa-bars {
   visibility: hidden;
   font-size: 1.2rem;
-  text-align: left;
   position: fixed;
+  padding: 10px 10px 10px 30px;
+  background-color: rgba(195, 218, 183, 0.514);
   z-index: 1;
 }
 
@@ -402,6 +403,11 @@ header nav li:hover {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+}
+
+.contact-form-email button {
+  border: none;
+  padding: 0;
 }
 
 .contact-form .fas {
@@ -612,6 +618,18 @@ header {
   font-family: 'Open Sans', sans-serif;
   line-height: 24px;
   font-size: 0.7rem;
+}
+
+.line-master {
+  position: relative;
+}
+
+.line-top {
+  width: 50%;
+  height: 170px;
+  border-right: 1px solid #3030305e;
+  position: absolute;
+  top: -80px;
 }
 
 .line {
@@ -956,11 +974,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .blog-page .related-posts li {
-  /* flex-grow: 1; */
   margin-right: 40px;
 }
 
@@ -969,7 +985,6 @@ header {
 }
 
 .blog-page .related-posts img {
-  /* margin-right:40px; */
   width: 100%;
 }
 
@@ -982,7 +997,6 @@ header {
   margin-top: 20px;
 }
 
-.blog-page .comments,
 .blog-page .leave-comment {
   margin: 100px 0;
 }
@@ -1456,6 +1470,13 @@ header {
   .carousel-img img {
     width: 60%;
   }
+  .blog-page .related-posts h2 {
+    margin-bottom: 10px;
+  }
+  .blog-page .comment-section h2,
+  .blog-page .leave-comment h2 {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 460px) {
@@ -1470,5 +1491,15 @@ header {
   .blog-page .dialogbox .dialog-body-two {
     margin-left: 15px;
     margin-right: 0px;
+  }
+  .blog-page .creative h1 {
+    font-size: 2.35rem;
+  }
+  .contact-page .main-text h2 {
+    font-size: 2.55rem;
+    line-height: 52px;
+  }
+  footer p {
+    font-size: 0.6rem;
   }
 }

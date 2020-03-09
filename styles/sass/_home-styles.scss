@@ -101,6 +101,17 @@ header {
     line-height: 24px;
     font-size:0.7rem;
 }
+.line-master{
+    position: relative;
+}
+
+.line-top{
+    width:50%;
+    height:170px;
+    border-right:1px solid #3030305e;
+    position: absolute;
+    top:-80px;
+}
 
 .line {
     width:50%;
